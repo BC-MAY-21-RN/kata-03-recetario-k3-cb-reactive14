@@ -1,0 +1,92 @@
+{
+  "dishes": [
+    {
+      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+      "title": "Pepperoni Pizza",
+      "img": "https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=20&m=938742222&s=612x612&w=0&h=X5AlEERlt4h86X7U7vlGz3bDaDDGQl4C3MuU99u2ZwQ=",
+      "recipe": {
+        "ingredients": [{ "eggs": "3 pieces" }],
+        "servings": "3"
+      },
+      "recent": false
+    },
+    {
+      "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+      "title": "Chocolate Chip",
+      "img": "https://media.istockphoto.com/photos/fresh-baked-cookies-and-chocolate-fudge-brownies-cafe-or-snack-shop-picture-id1037371510?k=20&m=1037371510&s=612x612&w=0&h=ToHaUH4pfgYJffxBnTejvnBk4etbL--CVwGsVk2VJVU=",
+      "recipe": {
+        "ingredients": [{ "eggs": "3 pieces" }],
+        "servings": "3"
+      },
+      "recent": false
+    },
+    {
+      "id": "58694a0f-3da1-471f-bd96-145571e29d731",
+      "title": "Pancake Cups",
+      "img": "https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=20&m=938742222&s=612x612&w=0&h=X5AlEERlt4h86X7U7vlGz3bDaDDGQl4C3MuU99u2ZwQ=",
+      "recent": false
+    },
+    {
+      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28a2a",
+      "title": "Enchiladas rojas",
+      "img": "https://www.mexicoenmicocina.com/wp-content/uploads/2013/11/Enchiladas-rojas1_thumb8.jpg",
+      "recipe": {
+        "ingredients": [
+          { "Chile guajillo": "3 pieces" },
+          { "Ajo": "2 pieces" },
+          { "Oregano": "1/4 teaspoon" },
+          { "Tortillas": "12 pieces" },
+          { "Sal y pimienta": "To taste" },
+          { "Carme deshebrada de pollo": "2 cups" },
+          { "Queso fresco": "1 1/2 cups" },
+          { "Cebolla picada": "1/2 cups" },
+          { "Aceite vegetal": "1/3 cups" }
+        ],
+        "servings": "6"
+      },
+      "recent": true
+    },
+    {
+      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28a123",
+      "title": "Carne asada",
+      "img": "https://images-gmi-pmc.edge-generalmills.com/cc1e665a-027a-42e1-8e8a-9b27eaf358b9.jpg",
+      "recipe": {
+        "ingredients": [
+          { "Tequila": "1/2 cups" },
+          { "Jugo de limon": "1/4 cups" },
+          { "Ajo triturado": "4 pieces" },
+          { "Cebolla morada": "1/2 pieces" },
+          { "Sal": "1 teaspoon" },
+          { "Pimienta fresca molida": "1 teaspoon" },
+          { "Flank steak": "2 to 3 lbs" }
+        ],
+        "servings": "4"
+      },
+      "recent": true
+    },
+    {
+      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28a2aa3",
+      "title": "Lasagna",
+      "img": "https://dam.cocinafacil.com.mx/wp-content/uploads/2020/12/lasa%C3%B1a-receta.jpg",
+      "recipe": {
+        "ingredients": [
+          { "Carne de res molida": "3 1/2 lbs" },
+          { "Ajo en polvo": "2 teaspoon" },
+          { "Aceite vegetal": "1 teaspoon" },
+          { "Cebolla corte fino": "1/3 cups" },
+          { "Dientes de ajo": "3 pieces" },
+          { "Apio corte fino": "1/2 cups" },
+          { "Salsa de tomate": "1 cup" },
+          { "Agua": "3/4 cup" },
+          { "Hojas de laurel": "4 pieces" },
+          { "Pasta lasagna precocida": "3/4 lbs" },
+          { "Queso mozzarella rayado": "2 cups" },
+          { "Sal y pimienta": "To taste" },
+          { "Queso Parmesano": "1 cups" }
+        ],
+        "servings": "10"
+      },
+      "recent": true
+    }
+  ]
+}

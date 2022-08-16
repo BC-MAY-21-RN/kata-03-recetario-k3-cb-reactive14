@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FlatList, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
 import Item from "./item";
-
+import * as data from '../resources/data.json';
 
 
 
@@ -14,7 +14,10 @@ const TrendingList = ({ title, width, height, data }) => {
         return (
             <Item
                 item={item}
-                onPress={() => setSelectedId(item.id)}
+                onPress={() => {
+                    setSelectedId(item.id);
+
+                }}
                 textColor={{ color }}
                 width={{ width }}
                 height={{ height }}
@@ -40,7 +43,7 @@ const TrendingList = ({ title, width, height, data }) => {
 
 const styles = StyleSheet.create({
     container: {
-        
+
     },
     sectionName: {
         color: '#B32A5A',
