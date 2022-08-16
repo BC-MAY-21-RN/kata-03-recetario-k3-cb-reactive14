@@ -14,6 +14,9 @@ export const styles = StyleSheet.create({
 
     viewTrendingList: {
         marginTop: 20
+    },
+    viewRecentList: {
+        marginTop: 20
     }
 
 });

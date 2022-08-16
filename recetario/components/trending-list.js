@@ -15,19 +15,19 @@ const DATA = [
 
     },
     {
-        id: "58694a0f-3da1-471f-bd96-145571e29d72",
+        id: "58694a0f-3da1-471f-bd96-145571e29d731",
         title: "Pancake Cups",
         img: "https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=20&m=938742222&s=612x612&w=0&h=X5AlEERlt4h86X7U7vlGz3bDaDDGQl4C3MuU99u2ZwQ="
 
     },
     {
-        id: "58694a0f-3da1-471f-bd96-145571e29d72",
+        id: "58694a0f-3da1-471f-bd96-145571e29d733",
         title: "Pancake Cups",
         img: "https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=20&m=938742222&s=612x612&w=0&h=X5AlEERlt4h86X7U7vlGz3bDaDDGQl4C3MuU99u2ZwQ="
 
     },
     {
-        id: "58694a0f-3da1-471f-bd96-145571e29d72",
+        id: "58694a0f-3da1-471f-bd96-145571e29d734",
         title: "Pancake Cups",
         img: "https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=20&m=938742222&s=612x612&w=0&h=X5AlEERlt4h86X7U7vlGz3bDaDDGQl4C3MuU99u2ZwQ="
 
@@ -71,8 +71,6 @@ const TrendingList = ({ title, width, height }) => {
 const styles = StyleSheet.create({
     container: {
         marginTop: StatusBar.currentHeight || 0,
-        borderWidth: 3,
-        borderColor: ''
     },
     sectionName: {
         color: '#B32A5A',

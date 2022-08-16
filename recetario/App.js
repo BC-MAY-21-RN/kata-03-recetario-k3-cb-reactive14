@@ -11,19 +11,21 @@ export default function App() {
         <SearchBarComponent />
       </View>
 
+
       <View style={styles.viewTrendingList}>
         <TrendingList
           title={"TRENDING"}
           width={90}
           height={70}
         />
-        <View style={styles.viewTrendingList}>
-          <TrendingList
-            title={"RECENT"}
-            width={110}
-            height={140}
-          />
-        </View>
+      </View>
+
+      <View style={styles.viewRecentList}>
+        <TrendingList
+          title={"RECENT"}
+          width={90}
+          height={70}
+        />
       </View>
     </View>
   );
