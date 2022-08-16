@@ -7,16 +7,15 @@ export const styles = StyleSheet.create({
         backgroundColor: '#4B4B4B',
         alignItems: 'center',
     },
-
+    
     component: {
-        marginTop: 15,
+        marginTop: 50,
+        width: '90%',
     },
-
+    
     viewTrendingList: {
-        marginTop: 20
+        marginTop: 20,
+        height: '50%',
     },
-    viewRecentList: {
-        marginTop: 20
-    }
 
 });
