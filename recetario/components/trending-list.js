@@ -16,7 +16,6 @@ const TrendingList = ({ title, width, height, data }) => {
                 item={item}
                 onPress={() => {
                     setSelectedId(item.id);
-
                 }}
                 textColor={{ color }}
                 width={{ width }}
