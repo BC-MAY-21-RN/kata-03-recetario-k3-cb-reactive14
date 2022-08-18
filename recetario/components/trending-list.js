@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import { FlatList, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
+import { FlatList, ScrollView, StyleSheet, Text } from "react-native";
 import Item from "./item";
-import * as data from '../resources/data.json';
 
-
-
-const TrendingList = ({ title, width, height, data }) => {
+const TrendingList = ({ title, width, height, data, navigation }) => {
     const [selectedId, setSelectedId] = useState(null);
 
     const renderItem = ({ item }) => {
@@ -16,6 +13,7 @@ const TrendingList = ({ title, width, height, data }) => {
                 item={item}
                 onPress={() => {
                     setSelectedId(item.id);
+                    navigation.navigate('InfoScreen', item)
                 }}
                 textColor={{ color }}
                 width={{ width }}

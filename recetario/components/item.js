@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { FlatList, TouchableOpacity, Text, Image, StyleSheet } from "react-native";
+import React from "react";
+import { TouchableOpacity, Text, Image, StyleSheet } from "react-native";
 
 const Item = ({ item, onPress, textColor, width, height }) => (
-
 
     < TouchableOpacity onPress={onPress} style={[styles.item]} >
         <Image

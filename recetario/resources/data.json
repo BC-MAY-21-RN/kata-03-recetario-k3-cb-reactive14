@@ -87,6 +87,24 @@
         "servings": "10"
       },
       "recent": true
+    },
+    {
+      "id": "bg536vbsd-c1b1-46c2-aed5-3fdcfg224aa3",
+      "title": "Empanadas",
+      "img": "https://www.paulinacocina.net/wp-content/uploads/2018/05/empanada2.png",
+      "recipe": {
+        "ingredients": [
+          { "Carne picada": "1/2 kg" },
+          { "Cebolla": "2 pieces" },
+          { "Dientes de ajo": "3 pieces" },
+          { "Pimiento": "1/2 pieces" },
+          { "Tomate": "1 pieces" },
+          { "Aceitunas": "100gr" },
+          { "Sal y pimienta": "To taste" }
+        ],
+        "servings": "5"
+      },
+      "recent": true
     }
   ]
 }
