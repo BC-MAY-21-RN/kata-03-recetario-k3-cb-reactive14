@@ -9,10 +9,16 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator screenOptions={{ headerShown: false }}
+
+      >
         <Stack.Screen
           name="MainScreen"
-          component={MainScreen} />
+          component={MainScreen}
+          options={{ title: 'Overview' }}
+
+
+        />
         <Stack.Screen
           name="InfoScreen"
           component={InfoScreen} />
