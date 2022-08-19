@@ -122,7 +122,7 @@
     },
     {
       "id": "bs12argtra-c1b1-46c2-aed5-3ads3fahw24a2aa3",
-      "title": "Carne a la Olla",
+      "title": "Milanesas",
       "img": "https://t2.rg.ltmcdn.com/es/posts/6/6/8/milanesas_de_ternera_56866_600.jpg",
       "recipe": {
         "ingredients": [
@@ -138,7 +138,7 @@
         ],
         "servings": "4"
       },
-      "recent": true
+      "recent": false
     }
   ]
 }
