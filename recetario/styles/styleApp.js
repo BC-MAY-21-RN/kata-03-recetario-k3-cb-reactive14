@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform, StatusBar } from 'react-native';
 
 export const styles = StyleSheet.create({
     container: {
@@ -6,16 +6,21 @@ export const styles = StyleSheet.create({
         borderColor: '#f00',
         backgroundColor: '#4B4B4B',
         alignItems: 'center',
+        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     },
 
     component: {
-        marginTop: 50,
+        marginTop: 10,
         width: '90%',
     },
 
     viewTrendingList: {
-        marginTop: 20,
-        height: '50%',
+        height: '30%',
+        marginTop: 30
     },
+
+    viewRecentList: {
+        marginTop: 20,
+    }
 
 });

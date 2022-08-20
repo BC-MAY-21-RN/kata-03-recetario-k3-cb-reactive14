@@ -27,15 +27,17 @@ const MainScreen = ({ navigation }) => {
             <View style={styles.viewTrendingList}>
                 <TrendingList
                     title={"TRENDING"}
-                    width={90}
-                    height={70}
+                    width={110}
+                    height={110}
                     data={trending}
                     navigation={navigation}
                 />
+            </View>
+            <View style={styles.viewRecentList}>
                 <TrendingList
                     title={"RECENT"}
-                    width={110}
-                    height={120}
+                    width={130}
+                    height={160}
                     data={recent}
                     navigation={navigation}
                 />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FlatList, ScrollView, StyleSheet, Text } from "react-native";
+import { FlatList, ScrollView, StyleSheet, Text, View } from "react-native";
 import Item from "./item";
 
 const TrendingList = ({ title, width, height, data, navigation }) => {
@@ -23,7 +23,7 @@ const TrendingList = ({ title, width, height, data, navigation }) => {
     };
 
     return (
-        <>
+        <View>
             <Text style={styles.sectionName}>{title}</Text>
             <ScrollView style={styles.container}>
                 <FlatList
@@ -34,20 +34,17 @@ const TrendingList = ({ title, width, height, data, navigation }) => {
                     horizontal={true}
                 />
             </ScrollView>
-        </>
+        </View>
     );
 };
 
 const styles = StyleSheet.create({
-    container: {
-
-    },
     sectionName: {
-        color: '#B32A5A',
+        color: '#C33A6A',
         paddingLeft: 15,
-        fontSize: 18,
+        fontSize: 20,
         letterSpacing: 2,
-        fontWeight: '600',
+        fontWeight: '500',
     },
 
 });

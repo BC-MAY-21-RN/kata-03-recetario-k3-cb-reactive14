@@ -14,10 +14,10 @@ const Item = ({ item, onPress, textColor, width, height }) => (
 
 const styles = StyleSheet.create({
     title: {
-        fontSize: 12,
+        fontSize: 15,
         textAlign: 'center',
         tintColor: 'white',
-        fontWeight: '600',
+        fontWeight: '300',
 
     },
     img: {
