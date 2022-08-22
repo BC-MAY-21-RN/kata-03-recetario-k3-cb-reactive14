@@ -25,7 +25,7 @@ const TrendingList = ({ title, width, height, data, navigation }) => {
     return (
         <View>
             <Text style={styles.sectionName}>{title}</Text>
-            <ScrollView style={styles.container}>
+            
                 <FlatList
                     data={data}
                     renderItem={renderItem}
@@ -33,7 +33,6 @@ const TrendingList = ({ title, width, height, data, navigation }) => {
                     extraData={selectedId}
                     horizontal={true}
                 />
-            </ScrollView>
         </View>
     );
 };

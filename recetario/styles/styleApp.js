@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         borderColor: '#f00',
-        backgroundColor: '#4B4B4B',
+        backgroundColor: '#282828',
         alignItems: 'center',
         paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     },

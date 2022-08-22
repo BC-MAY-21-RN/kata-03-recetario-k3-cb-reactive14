@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { View, Text, TouchableOpacity, Image, ImageBackground, StyleSheet, StatusBar, Platform, ScrollView, FlatList } from 'react-native';
+import { View, Text, ImageBackground, StyleSheet, StatusBar, Platform, ScrollView, FlatList } from 'react-native';
 import { Icon } from "@rneui/themed";
+import IngredientsList from './ingredientsList';
 
 const InfoScreen = ({ route, navigation }) => {
     const item = route.params;
@@ -13,38 +14,29 @@ const InfoScreen = ({ route, navigation }) => {
                     resizeMode="cover"
                     style={styles.imgBackground}>
                     <View style={styles.iconsView}>
-                        <View style={{ width: '60%', justifyContent: 'flex-end' }}>
-                            <Icon name="close" color={"#FFFF"} type="material-community" size={40} onPress={() =>
-                                navigation.navigate('MainScreen')} style={{ backgroundColor: 'red', width: '' }} />
-                        </View>
-                        <View style={{ flexDirection: 'row', width: '40%', justifyContent: 'flex-end' }}>
+                    <Icon name="close" color={"#FFFF"} type="material-community" size={40} onPress={() =>
+                                navigation.navigate('MainScreen')} />
+                        <View style={{ flexDirection: 'row', width: '90%', justifyContent: 'flex-end' }}>
                             <Icon name="export-variant" color={"#FFFF"} type="material-community" size={40} />
                             <Icon name="heart-outline" color={"#FFFF"} type="material-community" size={40} />
                         </View>
-
-
                     </View>
-
+                    <View style={styles.viewSeparator}></View>
+                    <View style={styles.titleView}>
                     <Text style={styles.section}>{item.recent ? 'Recent' : 'Trending'}</Text>
                     <Text style={styles.title}>{item.title}</Text>
+                    </View>
                 </ImageBackground>
             </View>
-
-
+            
             <View style={styles.viewServing}>
                 <Text style={styles.textServing}>Ingredients</Text>
                 <Text style={styles.textServing}>for {item.recipe.servings} servings</Text>
             </View>
 
-            {/* 
-            <ScrollView style={styles.container}>
-                <FlatList
-                    data={item.recipe.ingredients}
-                />
-            </ScrollView> */}
-
-
-
+             <View style={styles.viewIngredients}>
+                <IngredientsList data= {item.recipe.ingredients}/>
+            </View>               
         </View>
     );
 }
@@ -52,8 +44,7 @@ const InfoScreen = ({ route, navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        //alignItems: 'center',
-        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
+        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 30
     },
     section: {
         fontSize: 20,
@@ -66,19 +57,17 @@ const styles = StyleSheet.create({
     viewImage: {
         width: "100%",
         height: "45%",
-        // backgroundColor: 'rgba(255, 0, 0, 0.3)',
-
     },
     imgBackground: {
         width: "100%",
         height: "100%",
         opacity: 0.8,
-        backgroundColor: 'black'
+        backgroundColor: 'black',
     },
     viewServing: {
         width: '100%',
-        height: 70,
-        backgroundColor: '#4B4B4B',
+        height: 80,
+        backgroundColor: '#282828',
         justifyContent: 'center'
     },
     textServing: {
@@ -89,8 +78,18 @@ const styles = StyleSheet.create({
     iconsView: {
         flexDirection: 'row',
         width: '100%',
-        backgroundColor: "black",
-
+        backgroundColor: "rgba(0,0,0,0.4)",
+    },
+    titleView: {
+        backgroundColor: "rgba(0,0,0,0.4)",
+        height: "100%",
+    },
+    viewIngredients: {
+        height: '60%',
+    },
+    viewSeparator: {
+        height: '60%',
+        backgroundColor: 'rgba(0,0,0,0.4)',
     }
 });
 export default InfoScreen;
