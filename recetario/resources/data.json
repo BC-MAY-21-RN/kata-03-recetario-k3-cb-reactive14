@@ -10,9 +10,9 @@
           { "name": "Agua", "amount": "1/2 Litro" },
           { "name": "Sal", "amount": "3 pizcas" },
           { "name": "Levadura", "amount": "50gr" },
-          { "name": "Peperonni", "amount": "3 pieces" },
+          { "name": "Peperonni", "amount": "3 piezas" },
           { "name": "Salsa de tomate", "amount": "500ml" },
-        {"name": "Queso", "amount":"500gr"}
+          { "name": "Queso", "amount": "500gr" }
         ],
         "servings": "3"
       },
@@ -23,7 +23,15 @@
       "title": "Chocolate Chip",
       "img": "https://media.istockphoto.com/photos/crispy-chocolate-chips-cookies-homemade-picture-id1249483928?k=20&m=1249483928&s=612x612&w=0&h=dgk_BisCRPN6ccQQDlPgfx1w9m00mFYscb5_7_fMFRs=",
       "recipe": {
-        "ingredients": [{ "eggs": "3 pieces" }],
+        "ingredients": [
+          { "name": "Harina", "amount": "2 1/4 tazas" },
+          { "name": "Bicarboanto de Sodio", "amount": "1 cucharada" },
+          { "name": "Sal", "amount": "1/2 cucharada" },
+          { "name": "Mantequilla", "amount": "1 taza" },
+          { "name": "Azucar Morena", "amount": "3/4 taza" },
+          { "name": "Huevo", "amount": "1 pieza" },
+          { "name": "Chips de Chocolate", "amount": "2 tazas" }
+        ],
         "servings": "3"
       },
       "recent": false
@@ -33,7 +41,13 @@
       "title": "Cupcakes",
       "img": "https://media.istockphoto.com/photos/chocolate-cupcake-picture-id133652591?k=20&m=133652591&s=612x612&w=0&h=ZvTvKm2sNZ_QCyKYZU5RfEYwzeIyVQIzB8b5VLXbCC0=",
       "recipe": {
-        "ingredients": [{ "eggs": "3 pieces" }],
+        "ingredients": [
+          { "name": "Mantequilla", "amount": "110gr" },
+          { "name": "Caramelo de Azúcar", "amount": "110gr" },
+          { "name": "Huevos", "amount": "2 piezas" },
+          { "name": "Extracto de Vainilla", "amount": "1/2 cucharada" },
+          { "name": "Harina", "amount": "110gr" }
+        ],
         "servings": "3"
       },
       "recent": false
