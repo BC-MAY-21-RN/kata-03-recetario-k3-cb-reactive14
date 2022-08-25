@@ -1,8 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
-import SearchBarComponent from "./search-bar.js";
 import { styles } from "../styles/styleApp"
-import TrendingList from './trending-list.js';
+import { SearchBarComponent, TrendingList } from '../components'
 import * as data from '../resources/data.json';
 
 const MainScreen = ({ navigation }) => {

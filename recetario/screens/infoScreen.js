@@ -10,7 +10,7 @@ import {
   FlatList,
 } from "react-native";
 import { Icon } from "@rneui/themed";
-import IngredientsList from "./ingredientsList";
+import {IngredientsList} from "../components";
 
 const InfoScreen = ({ route, navigation }) => {
   const item = route.params;
